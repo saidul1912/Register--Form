@@ -1,0 +1,219 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* a {
+    text-decoration: none;
+} */
+
+body {
+    background-color: aquamarine;
+}
+
+label {
+    font-size: 15px;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+/* information start here */
+.information {
+    width: 320px;
+    background: #3bb1ff;
+    color: white;
+    padding: 30px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.all-conta {
+    width: 100%;
+    display: flex;
+    place-content: center;
+    margin-top: 66px;
+}
+
+.information h1 {
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+.information p {
+    margin-bottom: 25px;
+    font-family: 'Poppins',
+        sans-serif;
+    font-size: 12px;
+    color: #e2e2e2;
+}
+
+
+/* information ends here */
+
+/* register start here */
+button#register-btn {
+    padding: 11px;
+    width: 47%;
+    font-size: 14px;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    outline: none;
+    margin-bottom: 100px;
+    font-family: 'Poppins',
+        sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #5d5a5a;
+}
+
+
+.register {
+    width: 320px;
+    background: white;
+    padding: 30px;
+    line-height: 35px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.register h1 {
+    text-transform: uppercase;
+    color: #3bb1ff;
+    font-size: 30px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+.fs-ls-name {
+    width: 100%;
+    display: flex;
+}
+
+
+.fs-name {
+    width: 50%;
+    margin-right: 20px;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+.ls-name {
+    width: 50%;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+input#fs-name {
+    padding: 9px;
+    width: 125px;
+    outline: none;
+    /* border-bottom: 1px solid gray; */
+    border-color: #ece2e2;
+    border-top-color: #ffffff5c;
+    border-left-color: #f9f0f07a;
+}
+
+input#ls-name {
+    padding: 9px;
+    margin-bottom: 15px;
+    outline: none;
+    width: 125px;
+    /* border: 1px solid gray; */
+    border-color: #ece2e2;
+    border-top-color: #ffffff5c;
+    border-left-color: #f9f0f07a;
+}
+
+#email-lab {
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+
+input[type="email"] {
+    width: 84%;
+    padding: 10px;
+    outline: none;
+    margin-bottom: 20px;
+    border-color: #ece2e2;
+    border-top-color: #ffffff5c;
+    border-left-color: #f9f0f07a;
+
+}
+
+.password {
+    width: 100%;
+    display: flex;
+    margin-bottom: 35px;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+.in-passw {
+    width: 50%;
+    margin-right: 20px;
+
+}
+
+.con-pass {
+    width: 50%;
+}
+
+input#in-password {
+    padding: 9px;
+    outline: none;
+    width: 125px;
+    border-color: #ece2e2;
+    border-top-color: #ffffff5c;
+    border-left-color: #f9f0f07a;
+}
+
+input#con-pass {
+    padding: 9px;
+    outline: none;
+    width: 125px;
+    border-color: #ece2e2;
+    border-top-color: #ffffff5c;
+    border-left-color: #f9f0f07a;
+}
+
+.check-box {
+    font-size: 16px;
+    margin-bottom: 18px;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+span a {
+    color: #3bb1ff;
+}
+
+
+button#reg-btn {
+    padding: 12px;
+    width: 120px;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    background: #3bb1ff;
+    outline: none;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-bottom: 40px;
+    font-family: 'Poppins',
+        sans-serif;
+
+
+}
+
+/* register ends here *
